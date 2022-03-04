@@ -1,0 +1,22 @@
+.header {
+    background: $off-black;
+    margin-bottom: $xlarge-size;
+    padding: $meduim-size 0;
+    color: white;
+}
+.header__title {
+    margin: 0;
+    font-size: $large-size;
+}
+.header__subtitle{
+    color: $off-white;
+    font-size: $meduim-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: $desktop-size) {
+    .header {
+        margin-bottom: $meduim-size;
+    }
+}

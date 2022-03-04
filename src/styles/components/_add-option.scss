@@ -1,0 +1,32 @@
+.add-option-error {
+    color: $off-white;
+    font-style: italic;
+    padding: 0 $meduim-size;
+    margin: $meduim-size 0 0 0;
+}
+
+.add-option{
+    display: flex;
+    padding: $meduim-size;
+    flex-direction: column;
+}
+
+.add-option__input {
+    flex-grow: 1;
+    background: $dark-blue;
+    border: none;
+    border-bottom: 0.3rem solid darken($color: $dark-blue, $amount: 10%);
+    color: $off-white;
+    padding: $small-size;
+    margin-bottom: $small-size;
+}
+
+@media (min-width: $desktop-size) {
+    .add-option {
+        flex-direction: row;
+    }
+    .add-option__input{
+        margin-bottom: 0;
+        margin-right: $small-size;
+    }
+}
